@@ -6,7 +6,7 @@ public double height;
 public double weight;   
 public static int numberOfSheep = 0;
 
-public Sheep(String sName, String sFavColor, int sheight, int sweight) {
+public Sheep(String sName, String sFavColor, double sheight, double sweight) {
     this.SheepName = sName;
     this.SheepFavColor = sFavColor;
     this.height = sheight;
